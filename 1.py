@@ -5,6 +5,5 @@ def reverse(s):
     else:
         return
 
-# Використання:
 string = input("Введіть слово: ")
 reverse(string)
