@@ -6,6 +6,5 @@ def fibonacci(n):
     else:
         return fibonacci(n - 1) + fibonacci(n - 2)
 
-# Приклад виклику функції з параметром n 
 result = fibonacci(int(input("Введіть число: ")))
 print(result)
